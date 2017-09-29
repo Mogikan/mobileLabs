@@ -117,7 +117,7 @@ class ImageGalleryAdapter: RecyclerView.Adapter<ImageGalleryViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ImageGalleryViewHolder {
         val view = LayoutInflater.from(parent!!.context).inflate(R.layout.image_gallery_card,parent,false);
-        return ImageGalleryViewHolder(view,100,100)
+        return ImageGalleryViewHolder(view,180,180)
     }
 
     override fun getItemCount(): Int {
