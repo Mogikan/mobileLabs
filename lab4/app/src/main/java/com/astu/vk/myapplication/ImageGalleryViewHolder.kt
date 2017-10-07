@@ -25,6 +25,7 @@ class ImageGalleryViewHolder(itemView: View?,val width: Int,val height:Int) : Re
     override fun downloadComplete(bitmap: Bitmap?) {
         itemView.findViewById<ImageView>(R.id.imageView)
                 .setImageBitmap(bitmap)
+
     }
 
     var bitmap: Bitmap? = null

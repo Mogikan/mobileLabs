@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.astu.vk.services.MainActivity"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+           <EditText
+                android:id="@+id/operand1EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+            <EditText
+                android:id="@+id/operand2EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="81dp"
+                />
+
+            <Button
+                android:id="@+id/sumIntentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sum Intent"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="16dp"
+                />
+
+            <Button
+                android:id="@+id/mulIntentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mul Intent"
+                tools:layout_editor_absoluteX="231dp"
+                tools:layout_editor_absoluteY="81dp"
+                />
+
+        <Button
+            android:id="@+id/boundedSumButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bounded Sum"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="81dp"
+            />
+
+        <Button
+            android:id="@+id/boundedMulButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bounded Mul"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="81dp"
+            />
+
+        <Button
+            android:id="@+id/nonboundedSumButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="non-Bounded Sum"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="81dp"
+            />
+
+        <Button
+            android:id="@+id/nonboundedMulButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="non-Bounded Mul"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="81dp"
+            />
+
+            <TextView
+                android:id="@+id/resultTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Result"
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="140dp"
+                />
+    </LinearLayout>
+
+</FrameLayout>
